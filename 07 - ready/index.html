@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <div class="navbar">
+        <a href="#index">Главная</a>
+        <a href="#sections">Разделы</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Портфолио</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <h1 class="header-title">Библиотечная выставка</h1>
+        <p class="header-subtitle">О любви. Про любовь. С любовью.</p>
+        <a href="#portfolio" class="header-arrow">
+            <img src="./img/header/chevron-down.svg" alt="Arrow">
+        </a>
+    </header>
+
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio-header">Выставка</h2>
+                
+                <!-- portfolio-cards-wrapper -->
+                <div class="portfolio-cards-wrapper">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="detectiv.html" class="card-link">
+                            <img class="card-img" src="./img/portfolio/detect.jpg" alt="Многостраничный сайт">
+                            <h3 class="card-title">Детективные романы</h3>
+                        </a>
+                    </div>
+                    <!-- // Card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="love.html" class="card-link">
+                            <img class="card-img" src="./img/portfolio/love.jpg" alt="Многостраничный сайт">
+                            <h3 class="card-title">Любовные романы</h3>
+                        </a>
+                    </div>
+                    <!-- // Card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="psyho.html" class="card-link">
+                            <img class="card-img" src="./img/portfolio/psyho.jpg" alt="Многостраничный сайт">
+                            <h3 class="card-title">Психологические романы </h3>
+                        </a>
+                    </div>
+                    <!-- // Card --
+
+                </div>
+                <!-- // portfolio-cards-wrapper -->
+    
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                
+                <!-- footer-copyright -->
+                <div class="footer-copyright footer-col">
+                    <div class="footer-copyright-name">© Полина Щербакова</div>
+                </div>
+                <!-- // footer-copyright -->
+
+               
+                <div class="footer-contacts footer-col">
+                    <a href="https://vk.com/id229335022" class="footer-button">
+                        Связаться Вконтакте
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Библиотеки и плагины -->
+    <script src="./libs/jquery/jquery-3.5.1.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+
+    <!-- Собственные скрипты и вызовы библиотек -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
